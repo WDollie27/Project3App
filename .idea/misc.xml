@@ -17,8 +17,22 @@
         <entry key="..\:/Users/maize/AndroidStudioProjects/Project3App/app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="..\:/Users/maize/AndroidStudioProjects/Project3App/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/maize/AndroidStudioProjects/Project3App/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="..\:/Users/waseemd/AndroidStudioProjects/Project3App/app/src/main/res/drawable/button_3.xml" value="0.1495" />
+        <entry key="..\:/Users/waseemd/AndroidStudioProjects/Project3App/app/src/main/res/drawable/button_4.xml" value="0.1495" />
+        <entry key="..\:/Users/waseemd/AndroidStudioProjects/Project3App/app/src/main/res/drawable/rounded_corner.xml" value="0.1785" />
         <entry key="..\:/Users/waseemd/AndroidStudioProjects/Project3App/app/src/main/res/layout/action_bar_layout.xml" value="0.14130434782608695" />
-        <entry key="..\:/Users/waseemd/AndroidStudioProjects/Project3App/app/src/main/res/layout/activity_home.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/waseemd/AndroidStudioProjects/Project3App/app/src/main/res/layout/activity_add_note.xml" value="0.22" />
+        <entry key="..\:/Users/waseemd/AndroidStudioProjects/Project3App/app/src/main/res/layout/activity_booking.xml" value="0.25" />
+        <entry key="..\:/Users/waseemd/AndroidStudioProjects/Project3App/app/src/main/res/layout/activity_contact.xml" value="0.15217391304347827" />
+        <entry key="..\:/Users/waseemd/AndroidStudioProjects/Project3App/app/src/main/res/layout/activity_home.xml" value="0.22" />
+        <entry key="..\:/Users/waseemd/AndroidStudioProjects/Project3App/app/src/main/res/layout/activity_item_view.xml" value="0.12182971014492754" />
+        <entry key="..\:/Users/waseemd/AndroidStudioProjects/Project3App/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/waseemd/AndroidStudioProjects/Project3App/app/src/main/res/layout/activity_main.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/waseemd/AndroidStudioProjects/Project3App/app/src/main/res/layout/activity_register.xml" value="0.12182971014492754" />
+        <entry key="..\:/Users/waseemd/AndroidStudioProjects/Project3App/app/src/main/res/layout/activity_reminder.xml" value="0.22" />
+        <entry key="..\:/Users/waseemd/AndroidStudioProjects/Project3App/app/src/main/res/layout/activity_reminders.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/waseemd/AndroidStudioProjects/Project3App/app/src/main/res/layout/item_view.xml" value="0.1" />
+        <entry key="..\:/Users/waseemd/AndroidStudioProjects/Project3App/app/src/main/res/menu/menu.xml" value="0.17552083333333332" />
       </map>
     </option>
   </component>

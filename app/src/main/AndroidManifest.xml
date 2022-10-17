@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="za.ac.cput.mp2.project3app" >
+    package="za.ac.cput.mp2.project3app">
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,22 @@
         android:label="Medi-Station"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Project3App" >
+        android:theme="@style/Theme.Project3App">
+        <activity
+            android:name=".Contact"
+            android:exported="false" />
+        <activity
+            android:name=".ItemView"
+            android:exported="false" />
+        <activity
+            android:name=".AddNoteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Reminder"
+            android:exported="false" />
+        <activity
+            android:name=".Booking"
+            android:exported="false" />
         <activity
             android:name=".Home"
             android:exported="false" />
@@ -20,7 +35,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
