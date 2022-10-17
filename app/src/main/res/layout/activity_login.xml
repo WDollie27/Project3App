@@ -25,22 +25,24 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:gravity="center"
-        android:layout_margin="25dp"
-        android:background="@color/black"
         android:layout_gravity="center"
-        android:layout_marginTop="100dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="@color/black"
+        android:gravity="center"
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/etName"
+            android:id="@+id/Name"
             android:layout_width="300dp"
             android:layout_height="60dp"
             android:background="@drawable/textbox"
             android:drawableLeft="@drawable/ic_baseline_email_24"
-            android:hint="Email"
             android:drawablePadding="15dp"
-            android:inputType="textEmailSubject"
+            android:hint="Username"
+            android:inputType="textPersonName"
             android:padding="15dp"
             android:textColor="@color/white"
             android:textColorHint="#E5E6E4">
@@ -49,7 +51,7 @@
 
 
         <EditText
-            android:id="@+id/etPassword"
+            android:id="@+id/Password"
             android:layout_width="300dp"
             android:layout_height="60dp"
             android:layout_margin="5dp"
@@ -66,23 +68,23 @@
 
         <TextView
             android:layout_width="250dp"
-            android:layout_height="60dp"
-            android:text="Don't have an Account"
-            android:layout_marginTop="30dp"
+            android:layout_height="59dp"
             android:layout_marginLeft="10dp"
-            android:textColor="@color/white"/>
+            android:layout_marginTop="30dp"
+            android:text="Don't have an Account?"
+            android:textColor="@color/white" />
 
     </LinearLayout>
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Register"
-        android:textColor="@color/white"
         android:id="@+id/btn"
-        android:gravity="center"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
         android:layout_marginTop="225dp"
-        android:layout_marginLeft="150dp"/>
+        android:gravity="center"
+        android:text="                            Register"
+        android:textColor="#DC618A" />
 
     <Button
         android:id="@+id/btnLogin"
@@ -100,9 +102,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="370dp"
         android:text="Or Sign In With"
-        android:textColor="@color/white"
-        android:layout_marginTop="370dp"/>
+        android:textColor="@color/white" />
 
     <LinearLayout
         android:layout_width="wrap_content"
