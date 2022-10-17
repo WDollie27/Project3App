@@ -22,7 +22,8 @@
                 android:layout_width="140dp"
                 android:layout_height="140dp"
                 android:layout_marginLeft="210dp"
-                android:src="@drawable/doctop">
+                android:src="@drawable/doctop"
+                android:visibility="invisible">
 
             </ImageView>
 
@@ -41,8 +42,7 @@
                 android:id="@+id/textView1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="70dp"
-                android:text="Find our Specialist"
+                android:layout_marginTop="5dp"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="28dp"
@@ -415,7 +415,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/doctor4" />
+                    app:srcCompat="@drawable/doctor3" />
 
                 <TextView
                     android:id="@+id/textView30"

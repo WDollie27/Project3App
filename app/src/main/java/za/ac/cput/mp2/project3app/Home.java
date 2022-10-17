@@ -17,6 +17,15 @@ TextView btn7, btn11, btn15, btnBack, btn16;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
+        //GET username
+        Intent intent = getIntent();
+        String text = intent.getStringExtra(Login.EXTRA_TEXT);
+
+        TextView textView1 =(TextView)findViewById(R.id.textView1);
+
+
+        textView1.setText("Welcome "+ text);
+
         btn7 = findViewById(R.id.btn7);
         btn11 = findViewById(R.id.btn11);
         btn15 = findViewById(R.id.btn15);

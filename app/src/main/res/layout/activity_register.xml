@@ -22,26 +22,28 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="370dp"
-        android:gravity="center"
-        android:layout_margin="25dp"
-        android:background="@color/black"
         android:layout_gravity="center"
-        android:layout_marginTop="100dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="@color/black"
+        android:gravity="center"
         android:orientation="vertical">
 
         <EditText
             android:id="@+id/name"
             android:layout_width="300dp"
             android:layout_height="60dp"
+            android:layout_margin="5dp"
             android:background="@drawable/textbox"
             android:drawableLeft="@drawable/ic_baseline_person_24"
-            android:hint="Full Name"
             android:drawablePadding="15dp"
+            android:hint="Full Name"
+            android:inputType="textPersonName"
             android:padding="15dp"
-            android:layout_margin="5dp"
             android:textColor="@color/white"
-            android:textColorHint="#E5E6E4"
-            android:inputType="textPersonName">
+            android:textColorHint="#E5E6E4">
 
         </EditText>
 
@@ -49,31 +51,15 @@
             android:id="@+id/num"
             android:layout_width="300dp"
             android:layout_height="60dp"
+            android:layout_margin="5dp"
             android:background="@drawable/textbox"
             android:drawableLeft="@drawable/ic_baseline_phone_android_24"
+            android:drawablePadding="15dp"
             android:hint="Cellphone Number"
-            android:drawablePadding="15dp"
+            android:inputType="phone"
             android:padding="15dp"
-            android:layout_margin="5dp"
             android:textColor="@color/white"
-            android:textColorHint="#E5E6E4"
-            android:inputType="phone">
-
-        </EditText>
-
-        <EditText
-            android:id="@+id/Email"
-            android:layout_width="300dp"
-            android:layout_height="60dp"
-            android:background="@drawable/textbox"
-            android:drawableLeft="@drawable/ic_baseline_email_24"
-            android:hint="Email"
-            android:drawablePadding="15dp"
-            android:padding="15dp"
-            android:layout_margin="5dp"
-            android:textColor="@color/white"
-            android:textColorHint="#E5E6E4"
-            android:inputType="textEmailAddress|textEmailSubject">
+            android:textColorHint="#E5E6E4">
 
         </EditText>
 
@@ -81,15 +67,31 @@
             android:id="@+id/Pass"
             android:layout_width="300dp"
             android:layout_height="60dp"
+            android:layout_margin="5dp"
             android:background="@drawable/textbox"
             android:drawableLeft="@drawable/ic_baseline_lock_24"
-            android:hint="Password"
-            android:layout_margin="5dp"
             android:drawablePadding="15dp"
+            android:hint="Password"
+            android:inputType="textPassword"
             android:padding="15dp"
             android:textColor="@color/white"
-            android:textColorHint="#E5E6E4"
-            android:inputType="textPassword">
+            android:textColorHint="#E5E6E4">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/ConfirmPass"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/textbox"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="15dp"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="#E5E6E4">
 
         </EditText>
 
@@ -99,21 +101,22 @@
             android:layout_height="60dp"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="30dp"
-            android:text="have an Account"
+            android:text="Have an Account?"
             android:textColor="@color/white" />
 
 
     </LinearLayout>
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Login"
         android:id="@+id/btn1"
-        android:gravity="center"
-        android:textColor="@color/white"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="109dp"
         android:layout_marginTop="336dp"
-        android:layout_marginLeft="120dp"/>
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:text="            Login"
+        android:textColor="#DC618A" />
 
     <Button
         android:id="@+id/Reg"
